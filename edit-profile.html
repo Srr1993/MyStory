@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MyStory - Sign-Edit Profile</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="signup-page">
+    <header>
+        <iframe src="header.html" height="60" width="100%"></iframe>
+    </header>
+    <section class="main-body">
+        <div class="edit profile">
+            <h1 class="edit-profile-header"> Edit Profile</h1>
+            <form class="edit-profile">
+                <!-- Alias -->
+                <div class="first-name-info">
+                    <label for="first-name">First Name</label>
+                    <input type="text" placeholder="Enter your first-name here" />
+                </div>
+                <!-- Email -->
+                <div class="last-name-info">
+                    <label for="last-name">Last Name</label>
+                    <input id="last-name" type="email" placeholder="Enter your last-name here" />
+                </div>
+                <!-- Gender -->
+                <div class="alia-info">
+                    <label for="alias">Alias</label>
+                    <input id="alias" type="alias" placeholder="Enter your alias here" />
+                </div>
+                <!-- DOB -->
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="date" name="email" data-date-inline-picker="true" />
+                </div>
+                <div class="How do you identify your self">
+                        <label for="How do you identify your self">How do you identify your self</label>
+                        <input type="date" name="How do you identify your self"  />
+                    </div>
+                    <div class="D.O.B">
+                            <label for="D.O.B">D.O.B</label>
+                            <input type="date" name="D.O.B"  />
+                        </div>
+                <!-- Password -->
+                <div class="sign-up-info">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter your password" />
+                </div>
+                <!-- Confirm Password -->
+                <div class="sign-up-info">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" placeholder="Confirm your password" />
+                </div>
+
+                <input id="sign-up-button" type="button" value="Sign-up" />
+            </form>
+        </div>
+    </section>
+    <iframe class="footer" src="footer.html" width="100%"></iframe>
+</body>
+
+</html>

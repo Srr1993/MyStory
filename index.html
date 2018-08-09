@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="MyStory Homepage.">
+    <meta name="keywords" content="MyStory,Tech Bootcamp">
+    <meta name="author" content="Keno Mullings">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MyStory</title>
+
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="template.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <iframe src="header.html" height="60" width="100%"></iframe>
+    </header>
+
+    <!-- This section has my page title -->
+    <section>
+        <div id="stories-banner">
+            <h1>Stories</h1>
+        </div>
+    </section>
+
+    <!-- This section has the list of stories -->
+    <section>
+        <!-- My Stories -->
+        <div id="my-stories">
+            <h2>My Stories</h2>
+            <div class="story" id="1234">
+                <span>My Story Title 1</span> <a href="story-details.html?id=1234">Details</a> | <a href="story-edit.html?id=1234">Edit</a> | <span>Delete</span>
+            </div>
+
+            <div class="story" id="6789">
+                <span>My Story Title 2</span> <a href="story-details.html?id=6789">Details</a> | <a href="story-edit.html?id=6789">Edit</a> | <span>Delete</span>
+            </div>
+        </div>
+
+        <!-- Other Stories -->
+        <div id="other-stories">
+            <h2>Other Stories</h2>
+            <div>
+                <span>Stories</span>
+            </div>
+            <div>
+                <span>Stories</span>
+            </div>
+        
+        </div>
+    </section>
+
+    <footer>
+        <iframe class="footer" src="footer.html" width="100%"></iframe>
+    </footer>
+</body>
+
+</html>
