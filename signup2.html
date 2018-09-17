@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MyStory - Sign-Up</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<script>
+function signUp(event) {
+const user = {
+alias: document.forms["signUpForm"]["alias"].value,
+email: document.forms["signUpForm"]["email"].value,
+gender: document.forms["signUpForm"]["gender"].value,
+dob: doument.forms["signUpForm"]["dob"].value,
+password: document.forms["sifnUpForm"]["password"].valeu
+};
+const confirm-Password
+</script>
+<body class="signup-page">
+    <header>
+        <iframe src="header.html" height="60" width="100%"></iframe>
+    </header>
+    <section class="main-body">
+        <div class="content">
+            <h1 class="title">Sign up</h1>
+            <form name="sign-up-form" id="sign-up-form" class="sign-up-form">
+                <!-- Alias -->
+                <div class="sign-up-info">
+                    <label id="alias" name="alias" for="alias">Alias</label>
+                    <input id="alias" name="alias" type="text" placeholder="Enter your Alias here" />
+                </div>
+                <!-- Email -->
+                <div class="sign-up-info">
+                    <label id="email" name="email" for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="Enter your email here" />
+                </div>
+                <!-- Gender -->
+                <div class="sign-up-info">
+                    <label id="gender" name="gender" for="gender">How do you gender identify?</label>
+                    <input id="gender" name="gender" type="text" />
+                </div>
+                <!-- DOB -->
+                <div class="sign-up-info">
+                    <label name="DOB" id="DOB" for="DOB">Date of Birth</label>
+                    <input type="date" id="DOB" name="DOB" data-date-inline-picker="true" />
+                </div>
+                <!-- Password -->
+                <div class="sign-up-info">
+                    <label name="password" id="password" for="password">Password</label>
+                    <input name="password" id="password" type="password" placeholder="Enter your password" />
+                </div>
+                <!-- Confirm Password -->
+                <div class="sign-up-info">
+                    <label id="comfirm-Password" name="confirm-Password" for="confirm-Password">Confirm Password</label>
+                    <input id="comfirm-Password" name="confirm-Password" type="password" placeholder="Confirm your password" />
+                </div>
+
+                <div class="buttons">
+                    <input id="button" class="button" type="submit" value="Sign-up" />
+                    <a href="login.3.html">Login</a>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <iframe class="footer" src="footer.html" width="100%"></iframe>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>MyStory - Login</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="login.css">
+</head>
+
+<script>
+	var login = function () {
+		// var x = document.forms["myForm"]["fname"].value;
+		// if (x == "") {
+		// 	alert("Name must be filled out");
+		// 	return false;
+		// } 
+        debuger;
+        var user= {
+            eamil: document.forms["logins"]["email"].value,
+            password: document.forms["loginForm"] ["password"]
+            .value
+        }
+	}
+</script>
+
+<body>
+	<header>
+		<iframe src="header.html" height="60" width="100%"></iframe>
+	</header>
+	<section id="login-page">
+		<div class="content">
+			<form name="loginForm" onsubmit="login();" method="post">
+				<h1 class="title">Login</h1>
+				<!-- Email HTML code -->
+				<div class="login-info">
+					<label for="email">Email</label>
+					<input id="email" name="email" type="email" placeholder="Enter your email here" />
+				</div>
+				<!-- Password HTML code -->
+				<div class="login-info">
+					<label for="password">Password</label>
+					<input id="password" name="password" type="password" placeholder="Enter your password here" />
+				</div>
+
+				<div class="buttons">
+					<input name="login-button" class="button" type="submit" value="Login" />
+					<a href="sign-up.html">Sign-up</a>
+					<a href="forgot-password.html">Forgot Password?</a>
+				</div>
+			</form>
+		</div>
+	</section>
+	<iframe class="footer" src="footer.html" width="100%"></iframe>
+</body>
+
+</html>
+
+
